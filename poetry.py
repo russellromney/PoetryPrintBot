@@ -13,7 +13,7 @@ auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
 
 # grab lines from the text file
-filename=open(argfile,'r')
+filename=open(poem,'r')
 f=filename.readlines()
 filename.close()
 
