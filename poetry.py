@@ -1,6 +1,9 @@
 import tweepy
 import time
-from poetry import *
+
+# my private credentials
+from poetry_credentials import *
+
 
 poem = 'annabelle_lee.txt'
 
